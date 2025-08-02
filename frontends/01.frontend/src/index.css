@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:url('https://static.vecteezy.com/system/resources/previews/000/834/435/non_2x/beautiful-space-background-vector.jpg');
+  color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+
+
+.navbar {
+  background:url('https://static.vecteezy.com/system/resources/thumbnails/039/830/455/small_2x/ai-generated-an-open-book-photo.jpg');
+  padding: 1rem;
+  background-size: cover;
+  
+  
+}
+
+#name {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  text-align: left;
+  font-size: 3em;
+  color: rgb(147, 235, 192);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.navbar a {
+  color: #fdf7f7;
+  font-weight: bold;
+}
+
+ /* .navbar a:hover {
+  text-decoration: underline;
+  color: rgb(252, 166, 223);
+}  */
+
+.page {
+  padding: 2rem;
+  min-height: 70vh;
+}
+
+
+.home-page {
+  background-image: url('https://img.jakpost.net/c/2019/03/02/2019_03_02_66706_1551461528._large.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.about-cart {
+  font-style: italic;
+}
+
+
+.category-page {
+  color: #004085;
+}
+
+#pageselect {
+  appearance: none;
+  cursor: pointer;
+}
+.theme-toggle {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme Toggle Button */
+[data-theme="light"] .theme-toggle {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+/* Dark Theme Toggle Button */
+[data-theme="dark"] .theme-toggle {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Optional: hover effects */
+.theme-toggle:hover {
+  opacity: 0.9;
+}
+
+/* Optional: make the button look cleaner */
+.theme-toggle:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(100, 100, 255, 0.4);
+}
+
+.red{
+  background: #691bdd;
+  color:#e0e0e0;
+}

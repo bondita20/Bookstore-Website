@@ -1,0 +1,46 @@
+/* src/pages/MyOrders.css */
+
+.my-orders-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #f9f9ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-orders-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.my-orders-empty {
+  color: #777;
+  font-size: 1.1rem;
+}
+
+.my-orders-list {
+  list-style: none;
+  padding: 0;
+}
+
+.my-orders-item {
+  background-color: #fff;
+  margin-bottom: 12px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.my-orders-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.my-orders-item strong {
+  color: #2c3e50;
+  font-size: 1.1rem;
+}

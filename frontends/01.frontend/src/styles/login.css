@@ -1,0 +1,88 @@
+.login-page {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box {
+  background: rgb(242, 227, 94);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px 10px white;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in;
+
+}
+
+.brand-heading {
+  font-size: 28px;
+  color: #5c6bc0;
+  margin-bottom: 10px;
+}
+
+.form-heading {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.form-subtext {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #3f51b5;
+}
+
+.register-msg {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.register-msg a {
+  color: #5c6bc0;
+  text-decoration: none;
+  font-weight: 500;
+}
+.register-msg a:hover{
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
