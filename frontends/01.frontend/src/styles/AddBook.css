@@ -29,7 +29,6 @@
   align-items: flex-start;
 }
 
-/* Form */
 .form-box {
   background-color: #fff;
   padding: 30px;
@@ -85,7 +84,7 @@
   border-radius: 6px;
 }
 
-/* Tips Sidebar */
+
 .tips-box {
   background: #fff8e1;
   padding: 20px;
@@ -110,7 +109,7 @@
   margin-bottom: 8px;
 }
 
-/* Recently Added */
+
 .recent-books {
   margin-top: 60px;
 }

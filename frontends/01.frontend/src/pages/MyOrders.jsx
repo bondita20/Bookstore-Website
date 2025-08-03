@@ -1,6 +1,6 @@
-// src/pages/MyOrders.jsx
+
 import React, { useEffect, useState } from "react";
-import "../styles/MyOrders.css"; // Make sure this is correct relative path
+import "../styles/MyOrders.css"; 
 
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
@@ -20,6 +20,7 @@ const MyOrders = () => {
   }, []);
 
   return (
+    <div className="my-orders">
     <div className="my-orders-container">
       <h2 className="my-orders-title">📦 My Orders</h2>
       {orders.length === 0 ? (
@@ -34,6 +35,7 @@ const MyOrders = () => {
           ))}
         </ul>
       )}
+    </div>
     </div>
   );
 };

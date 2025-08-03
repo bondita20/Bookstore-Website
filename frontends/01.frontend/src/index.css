@@ -63,10 +63,6 @@ a {
   font-weight: bold;
 }
 
- /* .navbar a:hover {
-  text-decoration: underline;
-  color: rgb(252, 166, 223);
-}  */
 
 .page {
   padding: 2rem;
@@ -97,37 +93,6 @@ a {
 #pageselect {
   appearance: none;
   cursor: pointer;
-}
-.theme-toggle {
-  padding: 8px 16px;
-  font-size: 14px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Light Theme Toggle Button */
-[data-theme="light"] .theme-toggle {
-  background-color: #e0e0e0;
-  color: #000;
-}
-
-/* Dark Theme Toggle Button */
-[data-theme="dark"] .theme-toggle {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-/* Optional: hover effects */
-.theme-toggle:hover {
-  opacity: 0.9;
-}
-
-/* Optional: make the button look cleaner */
-.theme-toggle:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(100, 100, 255, 0.4);
 }
 
 .red{
