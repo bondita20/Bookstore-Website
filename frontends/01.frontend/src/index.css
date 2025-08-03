@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI','Poppins' Tahoma, Geneva, Verdana, sans-serif;
   background:url('https://static.vecteezy.com/system/resources/previews/000/834/435/non_2x/beautiful-space-background-vector.jpg');
   color: #333;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 h1 {

@@ -1,68 +1,94 @@
+
 .category-container {
-  padding: 20px;
-  text-align: center;
- background: transparent;
+  padding: 2rem;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  min-height: 100vh;
 }
+
 
 .book-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
 }
+
 
 .book-card {
-  background-color: #f1d2d2;
-  padding: 10px;
-  border: 1px solid #eee;
-  width: 200px;
-  height: 450px; 
-  text-align: center;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  height:auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 1.2rem;
   display: flex;
   flex-direction: column;
-  justify-content: start;
   align-items: center;
+  transition: transform 0.3s ease;
+  text-align: center;
 }
 
-.book-image {
-  width: 100%;
-  height: 50%; 
-  object-fit: contain; 
-  border-radius: 4px;
-  margin-bottom: 8px;
+.book-card:hover {
+  transform: translateY(-6px);
 }
 
-.book-button{
-    background-color:rgb(42, 49, 239);
-    color: antiquewhite;
-    border-radius: 30px;
-    cursor:pointer;
-}
-.book-button:hover{
-    background-color: black;
-}
+
 .book-card img {
-    width: 180px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-right: 15px;
-    margin:auto;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
-.delete-button {
-  background-color: #e74c3c;
+
+
+.book-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+
+.book-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.2rem 0;
+}
+
+.book-card p strong {
+  font-size: 1rem;
+  color: #28a745;
+}
+
+
+.book-button {
+  background-color: #007bff;
   color: white;
   border: none;
-  padding: 6px 10px;
-  border-radius: 4px;
+  border-radius: 25px;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  margin-top: 0.8rem;
   cursor: pointer;
-  margin-top: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .delete-button:hover {
-  background-color: #c0392b;
+  background-color: #c82333;
 }
